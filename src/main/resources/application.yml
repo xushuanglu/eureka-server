@@ -2,6 +2,10 @@
 server:
   port: 8761
 
+#不同环境设置
+spring:
+  profiles: prod
+
 #eureka配置
 eureka:
   instance:
